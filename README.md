@@ -4,7 +4,12 @@ Wasm bug
 This repo is to reproduce a crash instantiating wasm32-unknown-unknown built
 wasm created with the debug configuration.
 
-requires Browserify `npm install -g browserify`
+requires:
+  * Browserify `npm install -g browserify`
+  * rust-nightly
+
+My rustc is:
+`rustc 1.24.0-nightly (73bca2b9f 2017-11-28)`
 
 It simply builds a main.rs with empty main.
 When built with --release instantiation succeeds. When built without instantiation fails in the browser with:
