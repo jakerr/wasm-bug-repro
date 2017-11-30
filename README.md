@@ -4,6 +4,8 @@ Wasm bug
 This repo is to reproduce a crash instantiating wasm32-unknown-unknown built
 wasm created with the debug configuration.
 
+[Rust-Lang issue 46367](https://github.com/rust-lang/rust/issues/46367)
+
 requires:
   * Browserify `npm install -g browserify`
   * rust-nightly
