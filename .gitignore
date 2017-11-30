@@ -1,0 +1,7 @@
+**/*.swo
+**/*.swp
+**/*.wasm
+/target/
+**/*.rs.bk
+node_modules/
+_static
