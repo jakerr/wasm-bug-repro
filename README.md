@@ -12,7 +12,7 @@ My rustc is:
 `rustc 1.24.0-nightly (73bca2b9f 2017-11-28)`
 
 It simply builds a main.rs with empty main.
-When built with --release instantiation succeeds. When built without instantiation fails in the browser with:
+When built with --release instantiation succeeds. When built with debug configuration, instantiation fails in the browser with:
 
 ```
 bundle.js:10 Creating WASM module failed RuntimeError: memory access out of bounds
