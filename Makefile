@@ -9,7 +9,7 @@ run: wasm
 	mkdir -p _static
 	ln -sf ../target/wasm32-unknown-unknown/${MODE}/main.wasm _static/
 	ln -sf ../src/web/index.html _static/
-	browserify src/web/index.js -o _static/bundle.js
+	ln -sf ../src/web/index.js _static/
 	./tools/serve-wasm.py _static
 
 wasm:
